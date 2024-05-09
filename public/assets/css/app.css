@@ -1,0 +1,49 @@
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.table-responsive-width {
+    min-width: 1280px;
+}
+
+small {
+    font-size: 11px;
+}
+
+.toast {
+    max-width: 250px !important;
+}
+
+.w-30 {
+    width: 30%;
+}
+/* @media screen and (max-width: 1155px) {
+    thead {
+        font-size: 11px;
+    }
+    tbody {
+        font-size: 13px;
+    }
+    .btn-responsive {
+        font-size: 12px;
+    }
+    .tab-title {
+        font-size: 25px;
+    }
+    .order-manage-font {
+        font-size: 13px;
+    }
+    .responsive-font-size {
+        font-size: 11px;
+    }
+} */
+/* @media screen and (max-width: 1465px) {
+    .responsive-font-size {
+        font-size: 13px;
+    }
+} */
