@@ -40,7 +40,7 @@
                                 <li><a href="/goods" class="nav-link px-2">商品管理</a></li>
                                 <li><a class="nav-link px-2" href="/members">会員管理</a></li>
                                 <li><a href="/destination" class="nav-link px-2">発送先管理</a></li>
-                                @endif
+                            @endif
                             @if (Auth::user() && Auth::user()->user_role == 2)
                                 <li><a href="/orders" class="nav-link px-2" href="#">受注一覧</a></li>
                                 <li><a href="/destination" class="nav-link px-2">発送先一覧</a></li>
@@ -91,7 +91,7 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-5">
             @yield('content')
         </main>
     </div>
